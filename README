@@ -1,0 +1,18 @@
+README
+
+This repository contains data and code necessary to reproduce the results in "Glacial Isostatic Adjustment Alters Subglacial Water Routes since Last Glacial Maximum" by Linda Pan, Emma J. MacKie, Jerry X. Mitrovica, Robert P. Ackert Jr., Stewart S. R. Jamieson and Kaighin A. McColl. 
+
+A description of files: 
+
+IJ05_10ka_RSL	| Relative sea level at 10 ka on an even 256x512 latitude and longitude grid
+ICE6G_26ka_RSL	| Relative sea level at 26 ka on a degree 512 Gauss-Legendre grid (files provided)
+G18_26ka_RSL	| Relative sea level at 26 ka on a degree 512 Gauss-Legendre grid (files provided)
+
+GLlat_512		| Latitude coordinates of degree 512 Gauss-Legendre grid 
+GLlon_512		| Longitude coordinates of degree 512 Gauss-Legendre grid
+
+Antarctica_random_field.ipynb  					| Code used to generate topographic realizations with noise 
+Antarctica residual variogram analysis.ipynb 	| Code used for residual variogram analysis
+
+Note that past topography can be calculated as present day topography minus RSL
+
